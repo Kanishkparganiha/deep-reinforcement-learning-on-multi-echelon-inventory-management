@@ -5,7 +5,7 @@
 
 An RL problem can be divided into four sub elements: policy, reward function, value function, and a model. A policy specifies how an agent behaves in a given scenario, a reward function defines the goal in RL problem, a value function maps a state to an estimate of the total reward an agent can expect to accumulate over the future starting from that state and a model is an optional element of the RL system.
   
-[!image](https://drive.google.com/file/d/1aHSISsg3JJLIUpHfQCykdCzTM0hzRzH4/view?usp=sharing)
+
 
   </p>
   
