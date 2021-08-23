@@ -24,11 +24,9 @@ To be specific, A shop encounters erratic consumer demand on a daily basis and m
 
   </p>
 
-<h2>Reinforcement Learning Methods <h2>
+<h2>Reinforcement Learning Methods </h2>
   
-  <p>
-    In this section we first describe the problem, then two techniques we first select to solve, including Q learning,Proximal Policy Optimization (PPO) and Asynchronous Advantage Actor-Critic (A3C) methods .
-  </p>
+  <p>In this section we first describe the problem, then two techniques we first select to solve, including Q learning,Proximal Policy Optimization (PPO) and Asynchronous Advantage Actor-Critic (A3C) methods .</p>
   
   <h2>Problem Decription</h2>
   <p>  In our case, we have M stages going back to the producer of our raw materials all the way to our customers. Each stage along the way has a different lead time, or time it takes for the output of one stage to arrive and become the input for the next stage in the chain. This may be 5 days, 10 days, whatever. The longer these lead times become, the earlier you need to anticipate customer orders and demand to ensure you don’t stock out or lose sales.
@@ -72,7 +70,7 @@ PPO comes up with a clipping mechanism which clips the rt between a given range 
 
   </p>
   
-   <h2>Asunchronous Advantage Actor Critic</h2>
+   <h2>Asynchronous Advantage Actor Critic</h2>
    <p>
      A3C stands for Asynchronous Advantage Actor-Critic. Asynchronous means running multiple agents instead of one, updating the shared network periodically and asynchronously. Agents update independently of the execution of other agents when they want to update their shared network.
 The algorithm, which we call asynchronous advantage actor-critic (A3C), maintains a policy π(at|st; θ) and an estimate of the value function V (st; θv). Like our variant of n-step Q-learning, our variant of actor-critic also operates in the forward view and uses the same mix of n-step returns to update both the policy and the value-function. The policy and the value function are updated after every tmax actions or when a terminal state is reached. The update performed by the algorithm can be seen as:
