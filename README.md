@@ -70,7 +70,7 @@ The algorithm, which we call asynchronous advantage actor-critic (A3C), maintain
      
   where A(st, at; θ, θv) is an estimate of the advantage function given by  where k can vary from state to state and is upper-bounded
      
-     <strong>Pseudo Code</strong>     
+<strong>Pseudo Code</strong>     
      
 
   </p> 
@@ -97,7 +97,7 @@ The various algorithms are available through ray.rllib.agents. All the algorithm
   <ul>
     <li><strong>A3C </strong> -  Running the model for about 350000+ episodes </li>
     <li><strong>PPO </strong> -  Learning rate : 1x10-5  and Clip Gradient : [0.2, 0.3] </li>
-  
+  </ul>
     <h2>Conclusion  </h2>
     <p>From the results obtained from the plots we can infer that PPO might not converge faster than Asynchronous Advantage Actor-Critic method but have better reward values as the number of episodes increases and thus converges on high reward values compared to the A3C method.
 
