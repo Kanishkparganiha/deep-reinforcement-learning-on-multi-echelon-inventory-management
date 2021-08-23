@@ -45,6 +45,8 @@ Even though binning is possible for continuous state environment values or conti
 <li>Surplus inventory is held at each stage at a holding cost.</li>
   </ul>
   
+![image](ppo_plot/table.png)
+  
  <h2>Proximal Policy Optimization (PPO) </h2>
   
  <p>The PPO algorithm was introduced by the OpenAI team in 2017 and quickly became one of the most popular RL methods usurping the Deep-Q Learning method. It involves collecting a small batch of experiences interacting with the environment and using that batch to update its decision-making policy. Once the policy is updated with this batch, the experiences are thrown away and a newer batch is collected with the newly updated policy. This is the reason why it is an “on-policy learning” approach where the experience samples collected are only useful for updating the current policy once.
