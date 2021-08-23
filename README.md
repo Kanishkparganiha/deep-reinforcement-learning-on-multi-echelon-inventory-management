@@ -27,7 +27,7 @@ To be specific, A shop encounters erratic consumer demand on a daily basis and m
 <h2>Reinforcement Learning Methods <h2>
   
   <p>
-    In this section we first describe the problem, then two techniques we first select to solve, including<strong> Q learning,Proximal Policy Optimization (PPO) and Asynchronous Advantage Actor-Critic (A3C) </strong>methods .
+    In this section we first describe the problem, then two techniques we first select to solve, including Q learning,Proximal Policy Optimization (PPO) and Asynchronous Advantage Actor-Critic (A3C) methods .
   </p>
   
   <h2>Problem Decription</h2>
