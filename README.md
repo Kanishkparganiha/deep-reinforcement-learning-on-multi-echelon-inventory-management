@@ -45,7 +45,7 @@ Even though binning is possible for continuous state environment values or conti
 <li>Surplus inventory is held at each stage at a holding cost.</li>
   </ul>
   
-![image](ppo_plot/table.png)
+
   
  <h2>Proximal Policy Optimization (PPO) </h2>
   
@@ -91,7 +91,8 @@ The algorithm, which we call asynchronous advantage actor-critic (A3C), maintain
 Each echelon has its own cost structure, pricing and lead time. The last echelon provides raw materials and we don't have any inventory constraints on this stage, assuming that the producer which provides you with the raw materials is large enough that isn't a constraint we need to concern ourselves with.
 
 For this problem we customized our parameters of <strong> Initial Inventory, Units sales Prices, Units Replenishment Cost, Unit backlog Cost, Unit Holding Cost, Production Capacity and Lead times.</strong>
-    
+  
+![image](ppo_plot/table.png)    
     
 For training the environment with different Reinforcement learning methods we leveraged Ray library, a multi-processing library that enables us to scale training to large-scale distributed servers or just take advantage of the parallelization properties to more efficiently train using any local device.
 
