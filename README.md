@@ -4,6 +4,8 @@
   Reinforcement learning is the study of agents that act in an environment with the goal of maximizing cumulative reward signals. The agent is not told which actions to take but discovers which actions yield the most rewards by trying them. Its action may affect not only the immediate rewards but rewards for the next situations. There are several methods to solve the reinforcement learning problems namely <strong> Armed Bandit Problem, Markov Decision Process, Dynamic Programming, Temporal Differencing, etc.</strong> One of the challenges in the RL problem is the exploration versus exploitation problem, which is the trade-off between obtaining rewards from perceived safe options against exploring other possibilities which may be advantageous.
 
 An RL problem can be divided into four sub elements: policy, reward function, value function, and a model. A policy specifies how an agent behaves in a given scenario, a reward function defines the goal in RL problem, a value function maps a state to an estimate of the total reward an agent can expect to accumulate over the future starting from that state and a model is an optional element of the RL system.
+  
+[!image](https://drive.google.com/file/d/1aHSISsg3JJLIUpHfQCykdCzTM0hzRzH4/view?usp=sharing)
 
   </p>
   
@@ -103,7 +105,6 @@ The various algorithms are available through ray.rllib.agents. All the algorithm
 
 So in conclusion, we have introduced proximal policy optimization method, a family of policy optimizing methods that use multiple epochs of stochastic gradient ascent to perform each policy update. These methods have stability and reliability of trust-region methods but are much simpler to implement, requiring only a few lines of code change to a vanilla policy gradient implementation, applicable in more general settings.
    </p>
-  
   
   
   
